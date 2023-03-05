@@ -3,7 +3,7 @@
   height: 300px;
   font-size: 160px;
   padding: 25px;
-  color: #fff;
+  color: var(--color-counter);
   display: flex;
   align-items: center;
   justify-content: center;

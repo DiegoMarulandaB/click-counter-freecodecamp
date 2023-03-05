@@ -1,11 +1,9 @@
-import { useState } from "react"; //hooks
-// import reactLogo from './assets/react.svg'
-import "./stylesheets/Reset.css";
-import "./stylesheets/Root.css";
 import "./App.css";
-import Button from "./components/Button";
-import Counter from "./components/Counter";
 import freeCodeCampLogo from "./assets/img/freecodecamp-logo.png";
+import "./stylesheets/Reset.css";
+import Button from "./components/ButtonComponents/Button";
+import Counter from "./components/CounterComponents/Counter";
+import { useState } from "react"; //hooks
 
 function App() {
   const [clickNumber, setClickNumber] = useState(0); // 0 numero inicial de click

@@ -4,7 +4,7 @@ button {
   font-family: Roboto, sans-serif;
   font-size: 35px;
   font-weight: bold;
-  color: #fff;
+  color: var(--color-button);
   border: 2px solid #fff;
   border-radius: 15px;
   margin: 5px;
@@ -12,13 +12,13 @@ button {
 }
 
 button:hover {
-  background-color: #00471b;
+  background-color: var(--bg-color-button-hover);
 }
 
 .click-button {
-  background-color: #002ead;
+  background-color: var(--bg-color-click-button);
 }
 
 .reset-button {
-  background-color: #5a01a7;
+  background-color: var(--bg-color-reset-button);
 }
