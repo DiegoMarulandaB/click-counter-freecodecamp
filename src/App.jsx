@@ -20,7 +20,11 @@ function App() {
   return (
     <div className="App">
       <div className="freecodecamp-logo-container">
-        <img className="freecodecamp-logo" src={freeCodeCampLogo} alt="" />
+        <img
+          className="freecodecamp-logo"
+          src={freeCodeCampLogo}
+          alt="Logo-freeCodeCamp"
+        />
       </div>
       <div className="main-container">
         <Counter clickNumber={clickNumber} />
